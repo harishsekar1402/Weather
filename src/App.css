@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  font-family: "roboto";
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  
+}
+body{
+  /* background-image: linear-gradient(rgb(8, 12, 252),rgb(9, 3, 96)); */
+  height: 98vh;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  /* color: bisque; */
+  transition: 0.15s;
+  color: black;
+}
+/* .color-bisque{
+  color: rgb(26, 25, 25);
+} */
+.title{
+  /* color: bisque; */
+  font-size: 30px;
+  display: inline;
+}
+/* .titlealign{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+} */
+.navbar{
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.form-con{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.form-con input{
+  font-size: 20px;
+  padding: 5px;
+  border: solid 1px rgb(46, 66, 116);
+  /* background-color: rgb(0, 0, 255); */
+  /* box-shadow: 0px 0px 5px 4px rgb(255, 255, 255); */
+  /* border-radius: 10px; */
+  
+}
+.btn{
+  padding: 12px;
+  margin-left: 30px;
+  border: none;
+  background-color: rgb(5, 37, 100);
+  color: white;
+  box-shadow: 0px 0px 5px 4px rgb(255, 255, 255);
+}
+.hr{
+  margin: 0px 0px 30px 0px;
+}
+.pad{
+  padding: 20px;
+}
+.result{
+  border: 2px solid black;
+  padding-inline: 10%;
+  /* padding-block: 10px; */
+  box-shadow: 0px 0px 5px 4px rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.image{
+  padding: 5%;
+  background-color: rgb(12, 18, 92);
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 4px rgb(255, 255, 255);
+}
+/* ::placeholder{
+  color: bisque;
+} */
+.title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.titlepic{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 10px solid brown;
+  display: inline-block;
+  transition: 0.09s;
+
+}
+.titlepic:hover{
+  border: 10px solid rgb(204, 141, 141);
+}
+a:hover{
+  color: rgb(61, 60, 60);
+  font-size: 22px;
+}
+
+
+.list{
+  display: flex;
+  flex-direction: row;
+}
+
+.fiveday{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
