@@ -111,7 +111,7 @@ const Weatherdays = () => {
                     <div className='grid-item'>
                         <p>Wind</p>
                         <h2>{filteredData[0].wind.speed} km/h</h2>
-                        <p>{getDirection(filteredData[1].wind.deg)}</p>
+                        <p>{getDirection(filteredData[0].wind.deg)}</p>
                     </div>
                     <div className='grid-item'>
                         <p>Humidity</p>
