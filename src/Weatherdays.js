@@ -157,7 +157,7 @@ const Weatherdays = () => {
                 <div className='min-stat'>    
                 <div className='temp-det'>
                     <img src={`https://openweathermap.org/img/wn/${filteredData[1].weather[0].icon}@4x.png`}></img>
-                    <p>{(Math.round(filteredData[1].main.temp)*10)/10 - 273}°C</p>
+                    <p className='temp'>{(Math.round(filteredData[1].main.temp)*10)/10 - 273}°C</p>
                     <p>{filteredData[1].weather[0].description}</p>
                 </div>
                 <hr></hr>

@@ -7,12 +7,12 @@ const App = () => {
   
   useEffect(() =>{
     const current = new Date();
-    if(current.getHours() > 6 && current.getHours() < 18){
-      document.body.style.backgroundColor = "#e6e655";
-      document.body.style.color = " black";
-    }else{
-      document.body.style.backgroundColor = "#595957";
-      document.body.style.color = " black";
+    if(current.getHours() > 6 && current.getHours() <= 18){
+      document.body.style.backgroundColor = "#d4d2d2";
+      document.body.style.color = "black";
+    }else if(current.getHours() < 6 || current.getHours() >= 18){
+      document.body.style.backgroundColor = "black";
+      document.body.style.color = "white";
     }
 },[])
 
@@ -21,7 +21,7 @@ const App = () => {
 
       <div > 
         
-          <img src="https://i.pinimg.com/736x/6e/b0/8b/6eb08b08969a88e2e60a71e62dda2014.jpg" className="titlepic" />
+          {/* <img src="https://i.pinimg.com/736x/6e/b0/8b/6eb08b08969a88e2e60a71e62dda2014.jpg" className="titlepic" /> */}
           <p className="title">
             <b>Weather App</b></p>
         
